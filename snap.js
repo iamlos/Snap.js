@@ -501,12 +501,10 @@
 
         this.toggle = function(side) {
             var state = this.state().state;
-            if (state == 'left' || state == 'right')
-            {
+            if (state === 'left' || state === 'right'){
                 this.close();
             }
-            else
-            {
+            else{
                 this.open(side);
             }
         };
