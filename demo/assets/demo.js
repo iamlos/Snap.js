@@ -7,7 +7,7 @@ var addEvent = function addEvent(element, eventName, func) {
 };
 
 addEvent(document.getElementById('open-left'), 'click', function(){
-	snapper.open('left');
+	snapper.toggle('left');
 });
 
 /* Prevent Safari opening links when viewing as a Mobile App */
